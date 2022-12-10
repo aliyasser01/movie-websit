@@ -1,0 +1,337 @@
+/* navbar */
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1;
+}
+
+li {
+    float: left;
+    background-color: #04AA6D;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active-n {
+    background-color: #04AA6D;
+}
+
+#side-bar-me {
+    position: absolute;
+    top: 110px;
+}
+
+#mySidebar {
+    background-color: #ffffffdb;
+
+
+}
+
+#openNav {
+    position: fixed;
+    top: -2px;
+    right: 0px;
+    z-index: 2;
+}
+
+
+
+
+/* button */
+
+.watch-button {
+    position: relative;
+    top: -942px;
+    right: -1157px;
+    color: #f1f1f1;
+    background-color: #000;
+    width: 300px;
+    height: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.watch-button:hover {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.buttons-type {
+    position: relative;
+    top: -114px;
+    right: -25px;
+    border: solid;
+    border-radius: 50px;
+    background-color: #5b595900;
+    border-width: 2px;
+}
+
+.buttons-type:hover {
+    background-color: #e7d9d91f;
+}
+
+.watch-list {
+    color: #f1f1f1;
+    background-color: #e7d9d900;
+    position: relative;
+    top: 154px;
+    right: -1135px;
+    width: 300px;
+    height: 67px;
+    border: solid;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.watch-list:hover {
+    background-color: #e7d9d91f;
+}
+
+
+/* texts */
+
+.describtion {
+    position: relative;
+    bottom: 772px;
+    left: 14px;
+    color: #f1f1f1;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-bottom: solid;
+    border-bottom-width: 0.5px;
+    border-color: #706464;
+}
+
+.star {
+    position: relative;
+    top: 65px;
+    right: -1170px;
+}
+
+
+.srar-text {
+    position: relative;
+    top: 93px;
+}
+
+.don {
+    position: relative;
+    top: 76px;
+    right: -14px;
+}
+
+.my-star {
+    position: relative;
+    top: 98px;
+    right: -1134px
+}
+
+.text {
+    position: relative;
+    top: -101px;
+    right: -26px;
+    color: #f1f1f1;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-0 {
+    position: relative;
+    top: -161px;
+    right: -33px;
+    color: #ddd;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    background-color: #000c;
+}
+
+/* video */
+
+#myVideo {
+    position: relative;
+    right: 20px;
+    bottom: 621px;
+    min-width: 152%;
+    min-height: 100%;
+    width: 520px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 42px;
+
+}
+
+.img {
+    position: relative;
+    top: -62px;
+    left: 1134px;
+    width: 360px;
+    border-bottom-right-radius: 90px;
+    border-top-right-radius: 90px
+}
+
+.content {
+    position: relative;
+    bottom: 854px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 1157px;
+    padding: 20px;
+    border-bottom-right-radius: 90px;
+}
+
+
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+
+.raiting-containar {
+    position: relative;
+    bottom: 990px;
+    right: -891px;
+    width: 533px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    margin: 0 auto;
+    /* Center website */
+    max-width: 800px;
+    /* Max width */
+    padding: 20px;
+}
+
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+    color: #f1f1f1;
+}
+
+.middle {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* .row {
+    width: 1359px;
+} */
+
+/* The bar container */
+.bar-container {
+    width: 47%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 60%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+.bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+.bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+
+    .side,
+    .middle {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+}
